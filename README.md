@@ -171,8 +171,8 @@ CloudWatch → Log Groups → /aws/lambda/ec2_inspector
 
 ## 📧 ScreenShot Of Alert Email
 
+<img width="1547" height="999" alt="image" src="https://github.com/user-attachments/assets/2efa50d8-a27c-446c-be98-adf784749293" />
 
-assets/sns_output.png
 
 
 
