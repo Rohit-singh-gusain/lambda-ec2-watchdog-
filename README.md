@@ -167,28 +167,12 @@ CloudWatch → Log Groups → /aws/lambda/ec2_inspector
 
 ---
 
-## 📧 Sample Alert Email
+## 📧 ScreenShot Of Alert Email
 
-```
-=======================================================
-  EC2 COST GUARDIAN — RUNNING INSTANCES DETECTED
-=======================================================
-  Region    : ap-south-1
-  Checked at: 2025-08-10 09:00 UTC
-  Total     : 2 instance(s) running
 
-  Instance #1
-  ID          : i-0abc123ef
-  Name        : my-test-server
-  Type        : t2.micro
-  Running for : 14h 32m
-  Public IP   : 13.233.xx.xx
-=======================================================
-  ACTION: Go to EC2 Console → stop unwanted instances
-=======================================================
-```
+assets/sns_output.png
 
----
+
 
 ## 🔐 Security
 
