@@ -2,8 +2,7 @@
 resource "aws_cloudwatch_event_rule" "ec2_monitor_schedule" {
   name                = "ec2-cost-guardian-schedule"
   description         = "Triggers EC2 Cost Guardian Lambda daily at 09:00 AM UTC"
-  schedule_expression = "cron(25 17 * * ? *)" 
-
+  schedule_expression = "cron(35 6 * * ? *)"
   state = "ENABLED"
 
   tags = {
