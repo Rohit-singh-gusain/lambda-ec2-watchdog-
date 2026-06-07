@@ -22,6 +22,8 @@ EventBridge (Cron)  →  Lambda (Python/boto3)  →  EC2 API
                                 ↓
                          Gmail Inbox ✉️
 ```
+<img width="935" height="611" alt="image" src="https://github.com/user-attachments/assets/c9085c47-64ae-4211-b2a3-7201873b75ef" />
+
 
 | Service | Role |
 |---|---|
